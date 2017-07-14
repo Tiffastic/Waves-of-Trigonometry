@@ -1,0 +1,22 @@
+g.fillOval(x, y, size+t*i, size*i/t);
+
+00AAFF  - really pretty blue
+0xFF54C8 - nice pink
+AD0031  - dark red
+4222B5  - lovely violet
+890060
+
+		 int y = (int) ( yBase + sin(i * horizontalStretch + .3 * time)
+					 * amplitude );  
+					 // makes a sign wave going through the center of the tube.
+					 
+				
+				CS 1410 Graphics by Thuy Nguyen
+				
+				
+				
+				IN order to set the background color:
+				
+				public static void paintFrame (Graphics g, int t, int width, int height)
+				
+				g.fillRect(0, 0, width, height);
